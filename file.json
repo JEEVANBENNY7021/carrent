@@ -1,0 +1,58 @@
+[
+  {
+    "name": "SPOT ON 37669 Hotel Shiva Sai Lodge Near Regimental Bazaar, Shivaji Nagar, Hyderabad",
+    "imageurls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/56303/medium/597f0e48823f8885.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/56303/medium/06883e94ec59702e.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/56303/medium/91dead74a5dffa61.jpg"
+    ],
+    "rentperday": 1500,
+    "type": "Delux",
+    "maxcount": 3,
+    "phonenumber": 9989649278,
+    "currentbookings": [],
+    "description": "Hotel Shiva Sai Lodge is a furnished and modest property located in Regimental Bazaar, Shivaji Nagar, Hyderabad."
+  },
+  {
+    "name": "SPOT ON 12345 Elegant Stay Near MG Road, Bangalore",
+    "imageurls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/67890/medium/597f0e48823f8885.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/67890/medium/06883e94ec59702e.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/67890/medium/91dead74a5dffa61.jpg"
+    ],
+    "rentperday": 2000,
+    "type": "Suite",
+    "maxcount": 4,
+    "phonenumber": 9876543210,
+    "currentbookings": [],
+    "description": "Elegant Stay offers premium accommodation with modern amenities near MG Road, Bangalore."
+  },
+  {
+    "name": "SPOT ON 67890 Cozy Inn Near Marine Drive, Kochi",
+    "imageurls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/67890/medium/597f0e48823f8885.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/67890/medium/06883e94ec59702e.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/67890/medium/91dead74a5dffa61.jpg"
+    ],
+    "rentperday": 1200,
+    "type": "Standard",
+    "maxcount": 2,
+    "phonenumber": 9123456789,
+    "currentbookings": [],
+    "description": "Cozy Inn provides comfortable stays with scenic views near Marine Drive, Kochi."
+  },
+  {
+    "name": "SPOT ON 45678 Grand Stay Near Connaught Place, Delhi",
+    "imageurls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/67890/medium/597f0e48823f8885.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/67890/medium/06883e94ec59702e.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/67890/medium/91dead74a5dffa61.jpg"
+    ],
+    "rentperday": 3000,
+    "type": "Luxury",
+    "maxcount": 5,
+    "phonenumber": 9012345678,
+    "currentbookings": [],
+    "description": "Grand Stay offers luxurious accommodations with top-notch amenities near Connaught Place, Delhi."
+  }
+]
