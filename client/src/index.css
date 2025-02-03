@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Faculty Glyphic", serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  background-color: black !important;
+  height: 80px;
+  text-align: center;
+  
+}
+.nav-link{
+  color: white !important;
+}
+
+.navbar-brand{
+  color: white !important;
+  font-size: 30px;
+}
+
+.navbar-nav{
+  margin-left: auto !important;
+
+}
+
+
+.smallimg{
+
+  height: 200px;
+  width: 100% !important;
+  border-radius:  5px !important;
+}
+h1{
+  font-size: 20px !important;
+}
+
+.btn{
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+.bs{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top:  20px !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+
+}
+
+.bigimg{
+  height: 400px;
+  border-radius: 5px !important;
+  width: 100% !important;
+}
+input, select, .ant-picker{
+  box-shadow: none !important ;
+  margin-top:  10px !important;
+  border: 2px solid black !important;
+  width: 100% !important;
+  border-radius:  3px !important;
+  height:  35px !important;
+}
+h2{
+  font-size:  35px ;
+  padding: 10px;
+  font-weight: bold ;
+  text-align: center;
+}
+
+
+.dropdown-toggle{
+  border: 10px;
+}
+
+.ant-picker-input input{
+  border: none !important;
+}
+
+p{
+  font-size:  16px !important;
+}
+
+.landing{
+  background-color: black !important;
+  height: 65vh;
+  width: 101%;
+
+
+}
+.landingbtn{
+    background-color: white !important;
+    color: black !important;
+    margin-top: 40px;
+}
+
+.landing.col-md-12{
+    border-right: 5px solid white !important;
+}
+
+
+
+
+.about-section {
+  padding-top: 120px;
+  margin-top: 20px;
+}
+
+.about-contents {
+  display: flex;
+}
+
+.image-about {
+  width: 70%;
+  margin-right: 30px;
+}
+
+.box-about {
+  width: 60%;
+  margin-left: 30px;
+
+}
+
+.box-contents {
+  width: 85%;
+}
+
+.box-contents h2 {
+  margin: 0;
+}
+
+.box-contents h2::after {
+  content: "";
+  width: 30%;
+  border-top: none;
+}
+
+.image-about img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.continue-button a {
+  padding: 13px 18px;
+  background-color: #000000;
+  border-radius: 4px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.continue-button a:hover {
+  background-color: #000000;
+  transition: 0.5s all;
+}
+
+/* Trusted Section */
+.trusted-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.trusted-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.highlight {
+  color: #57b846; /* Green highlight for "Panggon" */
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+}
+
+.logos img {
+  max-width: 180px;
+
+  max-height: 70px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #000000;
+  width: 200vh;
+  padding: 50px 20px;
+}
+
+.testimonial-title {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #d1d1d1;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.testimonial {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.author-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-author h5 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.testimonial-author p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+
+.footer{
+  width: 100%;
+ background-color:  black;
+}
+
+
+
+
+/* Global styling for login screen */
+/* .login-container {
+  background: linear-gradient(135deg, #000000, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.login-subtitle {
+  font-size: 16px;
+  color: #777777;
+  margin-bottom: 20px;
+}
+
+.login-input {
+  height: 50px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.login-input:focus {
+  border-color: #6e8efb;
+  box-shadow: 0 0 5px rgba(110, 142, 251, 0.5);
+}
+
+.login-button {
+  background: linear-gradient(135deg, #000000, #000000);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.login-button:hover {
+  background: linear-gradient(135deg, #000000, #000000);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.login-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777777;
+}
+
+.login-footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* Section styles */
+section {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+/* Animated gradient effect */
+section::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#000, #f00, #000);
+    animation: animate 5s linear infinite;
+}
+
+/* Animation keyframes */
+@keyframes animate {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+/* Styling for individual spans */
+section span {
+    position: relative;
+    display: block;
+    width: calc(6.25vw - 2px);
+    height: calc(6.25vw - 2px);
+    background: #181818;
+    z-index: 2;
+    transition: 1.5s;
+}
+
+section span:hover {
+    /* background: #0f0; */
+    background: #f00;
+    transition: 0s;
+}
+
+/* Sign-in form styles */
+.signin {
+    position: absolute;
+    width: 400px;
+    background: #222;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
+}
+
+.signin .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.signin .content h2 {
+    font-size: 2em;
+    color: #f00;
+    text-transform: uppercase;
+}
+
+.signin .content .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.signin .content .form .inputBox {
+    position: relative;
+    width: 100%;
+}
+
+.signin .content .form .inputBox input {
+    position: relative;
+    width: 100%;
+    background:rgb(255, 255, 255);
+    border: 1px;
+    outline: 1.5px rgb(255, 255, 255) solid;
+    padding: 25px 10px 10px;
+    border-radius: 4px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.signin .content .form .inputBox i {
+    position: absolute;
+    left: 0;
+    padding: 15px 10px;
+    font-style: normal;
+    color: #ffffff;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.signin .content .form .inputBox input:focus ~ i,
+.signin .content .form .inputBox input:valid ~ i {
+    transform: translateY(-7.5px);
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+.signin .content .form .links {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin .content .form .links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.signin .content .form .links a:nth-child(2) {
+    color: #f00;
+    font-weight: 600;
+}
+
+.signin .content .form .inputBox input[type="submit"] {
+    padding: 10px;
+    background: #f00;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.35em;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    opacity: 0.6;
+}
+
+
+/* Media queries for responsive design */
+@media (max-width: 900px) {
+    section span {
+        width: calc(10vw - 2px);
+        height: calc(10vw - 2px);
+    }
+}
+
+@media (max-width: 600px) {
+    section span {
+        width: calc(20vw - 2px);
+        height: calc(20vw - 2px);
+    }
+}
+
+/* If needed, for better styling of the About Section */
+.about__section-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.section__subtitle {
+  font-size: 1.2rem;
+  color: #ff0000;
+  margin-bottom: 15px;
+}
+
+.section__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.section__description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.marquee-container {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 15px 0;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee-item {
+  flex: 0 0 auto;
+  padding: 0 20px;
+  font-size: 1.2rem;
+  color: #495057;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Optional: Pause animation on hover */
+.marquee-container:hover .marquee-content {
+  animation-play-state: paused;
+}
